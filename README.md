@@ -8,7 +8,7 @@ Setup:
     <script src="date-time-picker.js"></script>
 
 HTML declaration:
-$(<date-time-picker></date-time-picker>)
+//<date-time-picker></date-time-picker>
 
 Attributes:
     height - integer. Passing to CSS. declaring height of picker in px. 
