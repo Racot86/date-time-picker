@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>date-time-picker</title>
+    <meta name="viewport" content="width=device-width"/>
+</head>
+<body style="font-family: Helvetica">
+
+<header style="border: 1px solid black">
+    <div style="display: flex; justify-content: center; align-items: center">
+        <h3 style="display: flex; align-items: center">custom element: date-time-picker</h3>
+    </div>
+</header>
+<main style="margin-top: 5%">
+    <div style="display: flex" >
+        <div style="display: flex; flex-direction: column; width: 30%; padding-left: 10%; padding-right: 20%">
+
+            <date-time-picker class="date1"
+                    height = '20'
+                    slots-before = '3'
+                    slots-after = '6'
+                    step = 'day'
+                    language="ua"
+            ></date-time-picker>
+            <date-time-picker class="date2"
+                    height = '20'
+                    slots-before = '0'
+                    slots-after = '6'
+                    step = 'hour'
+            ></date-time-picker>
+            <date-time-picker class="date3"
+                    height = '20'
+                    slots-before = '4'
+                    slots-after = '0'
+                    step = 'week'
+            ></date-time-picker>
+
+
+        </div>
+        <div style="width: 100%; display: flex; justify-content: left; align-items: center">
+
+            <h5>Examples of different slot values and steps</h5>
+
+        </div>
+    </div>
+
+    <div style="display: flex;margin-top: 5%">
+        <div style="display: flex; flex-direction: column; width: 30%; padding-left: 10%; padding-right: 20%">
+            <date-time-picker class="date4"
+                    height = '20'
+                    slots-before = '6'
+                    slots-after = '6'
+                    step = '3day'
+                    color = 'danger'
+            ></date-time-picker>
+            <date-time-picker class="date5"
+                    height = '20'
+                    slots-before = '5'
+                    slots-after = '2'
+                    step = 'year'
+                    color = 'warning'
+            ></date-time-picker>
+            <date-time-picker class="date6"
+                    height = '20'
+                    slots-before = '1'
+                    slots-after = '4'
+                    step = '3week'
+                    color = 'success'
+            ></date-time-picker>
+        </div>
+        <div style="width: 100%; display: flex; justify-content: left; align-items: center">
+
+            <h5>Basic coloring palette implemented: danger, warning, success </h5>
+
+        </div>
+    </div>
+
+    <div style="display: flex;margin-top: 5%">
+        <div style="display: flex; flex-direction: column; width: 30%; padding-left: 10%; padding-right: 20%">
+
+            <label for="select">Choose value</label>
+            <input type ='date' id="select" style="margin: 3px;height: 20px; margin-bottom: 20px"/>
+
+            <date-time-picker class="date7"
+                              height = '20'
+                              slots-before = '3'
+                              slots-after = '6'
+                              step = 'day'
+            ></date-time-picker>
+            <label for="input">Picker value</label>
+            <input id="input" style="margin: 3px; height: 20px">
+
+        </div>
+        <div style="width: 100%; display: flex; justify-content: left; align-items: center">
+
+            <h5> Passing and detecting value change </h5>
+
+        </div>
+    </div>
+
+</main>
+
+<script src="date-time-picker.js"></script>
+<script src="app.js"></script>
+
+
+</body>
+</html>

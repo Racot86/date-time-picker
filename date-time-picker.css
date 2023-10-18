@@ -1,0 +1,209 @@
+@keyframes zoom {
+    0% {font-size: 100%}
+    100% {font-size: 90%}
+}
+@keyframes fade {
+    0% {background-color: lightgray}
+    100% {background-color: white}
+}
+@keyframes fade-danger {
+    0% {background-color: tomato}
+    100% {background-color: white}
+}
+
+@keyframes fade-warning {
+    0% {background-color: orange}
+    100% {background-color: white}
+}
+
+@keyframes fade-success {
+    0% {background-color: forestgreen}
+    100% {background-color: white}
+}
+
+date-time-picker div{
+    border: 1px solid black;
+    background-color: white;
+}
+
+date-time-picker div ul [open = '0'] li{
+    background-color: white;
+}
+
+date-time-picker div ul li[type='before']{
+    color: dimgray;
+}
+
+date-time-picker div ul li[type='after']{
+    color: black;
+}
+
+date-time-picker div ul[open='1'] li[selected = '1']{
+    background-color: lightgray;
+    color:black;
+}
+date-time-picker div ul[open='1'] li[selected = '1']:hover{
+    background-color: lightgray;
+
+}
+
+
+date-time-picker div ul[open='1'] li:hover{
+    font-weight: bold;
+    background-color: whitesmoke;
+}
+
+
+date-time-picker div ul li:active{
+    font-weight: bold;
+    background-color: whitesmoke;
+    animation-name: zoom;
+    animation-duration: 0.2s;
+
+
+}
+date-time-picker div ul[open='0'] li{
+    animation-name: fade;
+    animation-duration: 0.5s;
+
+}
+
+
+date-time-picker[color = 'danger'] div{
+    border: 1px solid tomato;
+    background-color: white;
+}
+
+date-time-picker[color = 'danger'] div ul [open = '0'] li{
+    background-color: white;
+}
+
+date-time-picker[color = 'danger'] div ul li[type='before']{
+    color: dimgray;
+}
+
+date-time-picker[color = 'danger'] div ul li[type='after']{
+    color: black;
+}
+
+date-time-picker[color = 'danger'] div ul[open='1'] li[selected = '1']{
+    background-color: tomato;
+    color:white;
+}
+date-time-picker[color = 'danger'] div ul[open='1'] li[selected = '1']:hover{
+    background-color: tomato;
+
+}
+
+
+date-time-picker[color = 'danger'] div ul[open='1'] li:hover{
+    font-weight: bold;
+    background-color: whitesmoke;
+}
+date-time-picker[color = 'danger'] div ul li:active{
+    font-weight: bold;
+    background-color: whitesmoke;
+    animation-name: zoom;
+    animation-duration: 0.2s;
+
+}
+date-time-picker[color = 'danger'] div ul[open='0'] li{
+    animation-name: fade-danger;
+    animation-duration: 0.5s;
+
+}
+
+
+
+
+date-time-picker[color = 'warning'] div{
+    border: 1px solid orange;
+    background-color: white;
+}
+
+date-time-picker[color = 'warning'] div ul [open = '0'] li{
+    background-color: white;
+}
+
+date-time-picker[color = 'warning'] div ul li[type='before']{
+    color: dimgray;
+}
+
+date-time-picker[color = 'warning'] div ul li[type='after']{
+    color: black;
+}
+
+date-time-picker[color = 'warning'] div ul[open='1'] li[selected = '1']{
+    background-color: orange;
+    color:white;
+}
+date-time-picker[color = 'warning'] div ul[open='1'] li[selected = '1']:hover{
+    background-color: orange;
+
+}
+
+
+date-time-picker[color = 'warning'] div ul[open='1'] li:hover{
+    font-weight: bold;
+    background-color: whitesmoke;
+}
+date-time-picker[color = 'warning'] div ul li:active{
+    font-weight: bold;
+    background-color: whitesmoke;
+    animation-name: zoom;
+    animation-duration: 0.2s;
+
+}
+date-time-picker[color = 'warning'] div ul[open='0'] li{
+    animation-name: fade-warning;
+    animation-duration: 0.5s;
+
+}
+
+
+
+
+
+date-time-picker[color = 'success'] div{
+    border: 1px solid forestgreen;
+    background-color: white;
+}
+
+date-time-picker[color = 'success'] div ul [open = '0'] li{
+    background-color: white;
+}
+
+date-time-picker[color = 'success'] div ul li[type='before']{
+    color: dimgray;
+}
+
+date-time-picker[color = 'success'] div ul li[type='after']{
+    color: black;
+}
+
+date-time-picker[color = 'success'] div ul[open='1'] li[selected = '1']{
+    background-color: forestgreen;
+    color:white;
+}
+date-time-picker[color = 'success'] div ul[open='1'] li[selected = '1']:hover{
+    background-color: forestgreen;
+
+}
+
+
+date-time-picker[color = 'success'] div ul[open='1'] li:hover{
+    font-weight: bold;
+    background-color: whitesmoke;
+}
+date-time-picker[color = 'success'] div ul li:active{
+    font-weight: bold;
+    background-color: whitesmoke;
+    animation-name: zoom;
+    animation-duration: 0.2s;
+
+}
+date-time-picker[color = 'success'] div ul[open='0'] li{
+    animation-name: fade-success;
+    animation-duration: 0.5s;
+
+}
