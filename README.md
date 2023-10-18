@@ -8,24 +8,24 @@ Setup:
     <script src="date-time-picker.js"></script>
 
 HTML declaration:
-><date-time-picker></date-time-picker>
+<date-time-picker></date-time-picker>
 
 Attributes:
     height - integer. Passing to CSS. declaring height of picker in px. 
     slots-before - integer.Sslots before value.
     slots-after - integer. Slots after value.
     step - String Values: 
-                    7minute - 7 minute step
-                    hour - 1 hour step
-                    6hour - 6 hour step
-                    day  - 1 day step
-                    3day - 3 days step
-                    week - 1 week step
-                    3week - 3 weeks step
-                    month - 1 month step
-                    2month - 2 month step
-                    6month - 6 month step
-                    year - 1 year step
+                    1. 7minute - 7 minute step
+                    2. hour - 1 hour step
+                    3. 6hour - 6 hour step
+                    4. day  - 1 day step
+                    5. 3day - 3 days step
+                    6. week - 1 week step
+                    7. 3week - 3 weeks step
+                    8. month - 1 month step
+                    9. 2month - 2 month step
+                    10. 6month - 6 month step
+                    11. year - 1 year step
     color - String. Basic coloring palette: Values: danger,warning, success. If no attribute - deafult pallete
 
 JS:
