@@ -7,8 +7,8 @@ Setup:
 <ul>
 <li>1. date-time-picker.css - to place together with index.html(do not rename css)</li>
 <li>
-    2. Add Script to the body:/n
-    <script src="date-time-picker.js"></script>
+    <p>2. Add Script to the body:</p>
+    <p><script src="date-time-picker.js"></script></p>
 </li>
 </ul>
 
