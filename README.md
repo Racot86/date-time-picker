@@ -14,7 +14,7 @@ Setup:
 
 <p>
 HTML declaration:
-$(<date-time-picker></date-time-picker>)
+'''<date-time-picker></date-time-picker>'''
 </p>
 <p>Attributes:</p>
     <ul>
