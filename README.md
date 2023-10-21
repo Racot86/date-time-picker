@@ -1,4 +1,10 @@
-
+<head>
+<style>
+    ul{
+            list-style-type: none;
+}
+</style>
+</head>
 <body>
 # date-time-picker
 final version
@@ -20,7 +26,7 @@ HTML declaration:
     
 </p>
 <p>Attributes:</p>
-    <ul style="list-style-type: none">
+    <ul>
         <li>height - integer. Passing to CSS. declaring height of picker in px. </li>
         <li>slots-before - integer.Sslots before value.</li>
         <li>slots-after - integer. Slots after value.</li>
