@@ -41,8 +41,9 @@ HTML declaration:
         </li>
     <li>color - String. Basic coloring palette: Values: danger,warning, success. If no attribute - deafult pallete</li>
     </ul>
-JS:
+<p>    
+<p>JS:</p>
 Updating of picker value by use of changing of its attribute "value". Value Date w/o parsing
 Getting value of picker using event listener with custom event "value-changed" value kept in "event.detail.value"
-
+</p>
 </body>
