@@ -1,3 +1,4 @@
+<body>
 # date-time-picker
 final version
 
@@ -35,3 +36,4 @@ JS:
 Updating of picker value by use of changing of its attribute "value". Value Date w/o parsing
 Getting value of picker using event listener with custom event "value-changed" value kept in "event.detail.value"
 
+</body>
