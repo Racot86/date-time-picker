@@ -16,11 +16,12 @@ Setup:
 HTML declaration:
 $(<date-time-picker></date-time-picker>)
 </p>
-Attributes:
-    height - integer. Passing to CSS. declaring height of picker in px. 
-    slots-before - integer.Sslots before value.
-    slots-after - integer. Slots after value.
-    step - String Values: 
+<p>Attributes:</p>
+    <ul>
+        <li>height - integer. Passing to CSS. declaring height of picker in px. </li>
+        <li>slots-before - integer.Sslots before value.</li>
+        <li>slots-after - integer. Slots after value.</li>
+         step - String Values: 
                     1. 7minute - 7 minute step
                     2. hour - 1 hour step
                     3. 6hour - 6 hour step
@@ -32,8 +33,9 @@ Attributes:
                     9. 2month - 2 month step
                     10. 6month - 6 month step
                     11. year - 1 year step
-    color - String. Basic coloring palette: Values: danger,warning, success. If no attribute - deafult pallete
-
+        </li>
+    <li>color - String. Basic coloring palette: Values: danger,warning, success. If no attribute - deafult pallete</li>
+    </ul>
 JS:
 Updating of picker value by use of changing of its attribute "value". Value Date w/o parsing
 Getting value of picker using event listener with custom event "value-changed" value kept in "event.detail.value"
