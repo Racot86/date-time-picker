@@ -20,7 +20,7 @@ HTML declaration:
     
 </p>
 <p>Attributes:</p>
-    <ul style="list-style: none">
+    <ul style="list-style-type: none">
         <li>height - integer. Passing to CSS. declaring height of picker in px. </li>
         <li>slots-before - integer.Sslots before value.</li>
         <li>slots-after - integer. Slots after value.</li>
