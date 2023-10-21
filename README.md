@@ -1,7 +1,7 @@
 # date-time-picker
 final version
 
-custom element: date-time-picker
+<h1>custom element: date-time-picker</h1>
 Setup:
 1. date-time-picker.css - to place together with index.html(do not rename css)
 2. Add Script to the body:
