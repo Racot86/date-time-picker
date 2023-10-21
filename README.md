@@ -11,7 +11,7 @@ Setup:
         
     <script src="date-time-picker.js"></script>
 
-
+</p>
 
 <p>
 HTML declaration:
