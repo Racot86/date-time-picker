@@ -7,13 +7,12 @@ Setup:
 <ul>
 <li>1. date-time-picker.css - to place together with index.html(do not rename css)</li>
 <li>2. Add Script to the body:<script src="date-time-picker.js"></script></li>
-    
+</ul>
 
-    </ul>
-
+<p>
 HTML declaration:
 <date-time-picker></date-time-picker>
-
+</p>
 Attributes:
     height - integer. Passing to CSS. declaring height of picker in px. 
     slots-before - integer.Sslots before value.
