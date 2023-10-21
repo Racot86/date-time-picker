@@ -4,18 +4,18 @@
 final version
 
 <h1>custom element: date-time-picker</h1>
+<p>
 Setup:
-<ul>
-<li>1. date-time-picker.css - to place together with index.html(do not rename css)</li>
-<li>
+
+1. date-time-picker.css - to place together with index.html(do not rename css)
+
     <p>2. Add Script to the body:
         
     <script src="date-time-picker.js"></script>
 
     
 </p>
-</li>
-</ul>
+</p>
 
 <p>
 HTML declaration:
