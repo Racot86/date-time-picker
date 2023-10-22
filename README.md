@@ -43,13 +43,14 @@ final version
                     slots-before = '3'
                     slots-after = '6'
                     step = 'day'
-                    language="ua"
+                    language = "ua"
      ></date-time-picker>
    
    
 ### JS:
 Updating of picker value by use of changing of its attribute "value". Value Date w/o parsing
 Getting value of picker using event listener with custom event "value-changed" value kept in "event.detail.value"
+
 Example of setting value:
 
     let date = document.querySelector('date-time-picker');
