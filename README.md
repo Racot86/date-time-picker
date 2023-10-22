@@ -46,8 +46,20 @@ Example:
      ></date-time-picker>
    
    
-## JS:
+### JS:
 Updating of picker value by use of changing of its attribute "value". Value Date w/o parsing
 Getting value of picker using event listener with custom event "value-changed" value kept in "event.detail.value"
+Example of setting value:
 
+    let date = document.querySelector('date-time-picker');
+    date.setAttribute('value', new Date());
+
+Example of getting value:
+
+    let date = document.querySelector('date-time-picker');
+    
+    date.addEventListener('value-changed',(event)=>{
+      let dateTimePickerValue  = event.detail.value;
+    });
+    
 
