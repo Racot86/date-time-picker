@@ -1,14 +1,12 @@
 
-# date-time-picker
+#  custom element date-time-picker
 final version
 
-## custom element: date-time-picker
-
  ### Setup:
--1. date-time-picker.css - to place together with index.html(do not rename css)</p>
--2. Add Script to the body:
-        
-    <script src="date-time-picker.js"></script>
+- 1. date-time-picker.css - to place together with index.html(do not rename css)</p>
+- 2. Add Script to the body:
+     
+     <script src="date-time-picker.js"></script>
 
 
 HTML declaration:
