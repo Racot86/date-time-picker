@@ -36,7 +36,7 @@ final version
    5. **color** - string. Basic coloring palette: Values: danger,warning, success. If no attribute - deafult pallete
    6. **language** - string. Values: en, ua
       
-Example:
+   Example:
 
     <date-time-picker class="date1"
                     height = '20'
