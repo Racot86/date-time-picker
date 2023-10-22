@@ -6,20 +6,19 @@ final version
   1. date-time-picker.css - to place together with index.html(do not rename css)</p>
   2. Add Script to the body:
      
-               <script src="date-time-picker.js"></script>
+    <script src="date-time-picker.js"></script>
 
 
-HTML declaration:
+### HTML declaration:
 
     <date-time-picker></date-time-picker>
     
 
-Attributes:
-    
-        height - integer. Passing to CSS. declaring height of picker in px.
-        slots-before - integer.Sslots before value.
-        slots-after - integer. Slots after value.
-        step - String Values:
+### Attributes:
+   - height - integer. Passing to CSS. declaring height of picker in px.
+   - slots-before - integer.Sslots before value.
+   - slots-after - integer. Slots after value.
+   - step - String Values:
                     
                     1. 7minute - 7 minute step
                     2. hour - 1 hour step
