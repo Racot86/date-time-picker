@@ -1,5 +1,5 @@
 
-#  custom element date-time-picker
+#  custom element: date-time-picker
 final version
 
  ### Setup:
