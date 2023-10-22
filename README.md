@@ -16,9 +16,9 @@ final version
 
 ### Attributes:
    1. height - integer. Passing to CSS. declaring height of picker in px.
-   2. slots-before - integer.Slots before value.
+   2. slots-before - integer. Slots before value.
    3. slots-after - integer. Slots after value.
-   4. step - String Values:
+   4. step - string. Values:
                     
       1. 7minute - 7 minute step
       2. hour - 1 hour step
@@ -33,10 +33,20 @@ final version
       11. year - 1 year step
                     
         
-   5. color - String. Basic coloring palette: Values: danger,warning, success. If no attribute - deafult pallete
+   5. color - string. Basic coloring palette: Values: danger,warning, success. If no attribute - deafult pallete
+   6. language - string
+Example:
+
+    <date-time-picker class="date1"
+                    height = '20'
+                    slots-before = '3'
+                    slots-after = '6'
+                    step = 'day'
+                    language="ua"
+     ></date-time-picker>
    
    
-JS:
+## JS:
 Updating of picker value by use of changing of its attribute "value". Value Date w/o parsing
 Getting value of picker using event listener with custom event "value-changed" value kept in "event.detail.value"
 
