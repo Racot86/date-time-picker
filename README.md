@@ -15,25 +15,25 @@ final version
     
 
 ### Attributes:
-   - height - integer. Passing to CSS. declaring height of picker in px.
-   - slots-before - integer.Sslots before value.
-   - slots-after - integer. Slots after value.
-   - step - String Values:
+   1. height - integer. Passing to CSS. declaring height of picker in px.
+   2. slots-before - integer.Slots before value.
+   3. slots-after - integer. Slots after value.
+   4. step - String Values:
                     
-                    1. 7minute - 7 minute step
-                    2. hour - 1 hour step
-                    3. 6hour - 6 hour step
-                    4. day  - 1 day step
-                    5. 3day - 3 days step
-                    6. week - 1 week step
-                    7. 3week - 3 weeks step
-                    8. month - 1 month step
-                    <9. 2month - 2 month step
-                    10. 6month - 6 month step
-                    11. year - 1 year step
+      1. 7minute - 7 minute step
+      2. hour - 1 hour step
+      3. 6hour - 6 hour step
+      4. day  - 1 day step
+      5. 3day - 3 days step
+      6. week - 1 week step
+      7. 3week - 3 weeks step
+      8. month - 1 month step
+      9. 2month - 2 month step
+      10. 6month - 6 month step
+      11. year - 1 year step
                     
-        </li>
-    color - String. Basic coloring palette: Values: danger,warning, success. If no attribute - deafult pallete
+        
+   5. color - String. Basic coloring palette: Values: danger,warning, success. If no attribute - deafult pallete
    
    
 JS:
