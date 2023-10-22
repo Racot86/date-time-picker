@@ -15,10 +15,10 @@ final version
     
 
 ### Attributes:
-   1. height - integer. Passing to CSS. declaring height of picker in px.
-   2. slots-before - integer. Slots before value.
-   3. slots-after - integer. Slots after value.
-   4. step - string. Values:
+   1. **height** - integer. Passing to CSS. declaring height of picker in px.
+   2. **slots-before** - integer. Slots before value.
+   3. **slots-after** - integer. Slots after value.
+   4. **step** - string. Values:
                     
       1. 7minute - 7 minute step
       2. hour - 1 hour step
@@ -33,8 +33,8 @@ final version
       11. year - 1 year step
                     
         
-   5. color - string. Basic coloring palette: Values: danger,warning, success. If no attribute - deafult pallete
-   6. language - string
+   5. **color** - string. Basic coloring palette: Values: danger,warning, success. If no attribute - deafult pallete
+   6. **language** - string. Values: en, ua
 Example:
 
     <date-time-picker class="date1"
